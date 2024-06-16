@@ -1,0 +1,29 @@
+.form{
+    display: grid;
+    grid-template-row: repeat(2,1fr);
+    grid-row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 30%;
+
+}
+input[type="checkbox"]{
+    width: 26px;
+    height: 26px;
+    outline: none;
+   box-shadow: none;
+}
+input[type="checkbox"]:checked{
+    outline: none;
+    accent-color: #5d5dfe;
+}
+label{
+    margin-left: 8px;
+    color: rgb(117, 115, 115);
+    font-size: 16px;
+}
+.box>p{
+    margin: 0;
+    padding: 8px;
+}

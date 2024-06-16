@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:100%;
+     width:100%;
+    background-color: #f8f9f5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a::after{
+    color: black;
+}
+p{
+    text-align: center;
+}
+
+.page-main-container{
+    background-image: linear-gradient(180deg, #F5F5F5, #FEFEFA,#F8F8FF);
+   height: 100vh;
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+}
+.page-footer-container{
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 8vh;
+    z-index: 999;
+    background-color: wheat;
+}
+.page-footer{
+    width: 100%;
+    height: 100%;
+    display:grid;
+  grid-gap: 3px;
+  justify-items: center;
+  align-items: center;
+  background-color: wheat;
+}
+.page-footer-content-1{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+}
+.page-footer-content-1>div{
+text-wrap: nowrap;
+font-size: 16px;
+color: rgb(82, 80, 80);
+}
+.page-footer-content-2>p{
+font-size: 14px;
+color: rgb(104, 103, 103);
+}
+.search-options-div{
+width: 100%;
+height: 50px;
+display:flex;
+}
+.input-text-for-searching{
+    width: 80%;
+    height: 100%; 
+    font-size: 20px;
+    outline: none;
+    padding-left: 8px;
+}
+.input-text-for-searching:focus{
+    outline: none;
+}
+.search-button{
+width: 20%;
+height: 100%;
+border: none;
+background-color: white;
+}

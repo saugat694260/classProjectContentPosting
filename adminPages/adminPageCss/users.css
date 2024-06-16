@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+  }
+  .table-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+  th{
+    font-size: 20px;
+    padding: 8px;
+  }
+  td{
+    padding: 4px;
+    font-size: 18px;
+  }
