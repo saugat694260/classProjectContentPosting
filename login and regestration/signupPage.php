@@ -15,8 +15,8 @@ include './phpFiles/utils.php';
             <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
             <link rel="shortcut icon" href="#">
             <!--style-->
-            <link rel="stylesheet" href="../shared.css">
-            <link rel="stylesheet" href="./css/shared.css">
+            <link rel="stylesheet" href="../shared.css?v=<?php echo time(); ?>">
+            <link rel="stylesheet" href="./css/shared.css?v=<?php echo time(); ?>">
     </head>
     <body>
         <div class="page-main-container">
