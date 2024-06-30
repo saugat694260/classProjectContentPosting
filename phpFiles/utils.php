@@ -15,7 +15,7 @@ $userId=$_SESSION['user_id'];
         
     }
 
-    header("Location: login.php");
+    header('Location:./login and regestration/loginPage.php');
     die;
     }
 }
