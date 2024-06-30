@@ -88,7 +88,7 @@ include './phpFiles/utils.php';
     </body>
 </html>
 
-<!--$_COOKIE'create table users_data(
+<!--'create table users_data(
     id int primary key AUTO_INCREMENT,
     username varchar(250) not null,
     email varchar(250) not null,
