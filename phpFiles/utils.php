@@ -1,4 +1,5 @@
 <?php 
+header("Location:./index.php") ;
 session_start();
 
 if (!function_exists('checkLoggedinOrNot')) {
