@@ -12,7 +12,6 @@ $user_data=checkLoggedinOrNot($conn);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--https://krx18.com/movies/eve-chan-no-hime-1984/-->
     <link rel="stylesheet" href="./shared.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/box-3.css?v=<?php echo time(); ?>">
