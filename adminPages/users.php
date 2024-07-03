@@ -2,7 +2,8 @@
 include '../phpFiles/connection.php';
 include '../phpFiles/utils.php';
 $user_data=checkLoggedinOrNot($conn);
-if(!$user_data['position']=="admin")
+
+if($user_data['position']=="user")
     header("Location:./index.php")
 ?>
 
