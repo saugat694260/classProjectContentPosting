@@ -5,7 +5,7 @@ include './phpFiles/connection.php'
 
 <?php
                    $id=$user_data['id'];
-                   if($_SERVER["REQUEST_METHOD"]=="POST"){
+                   if($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST["postContentBtn"])){
                     $text=$_POST["textForPosting"];
                     $postContentBtn=$_POST["postContentBtn"];
                     if(isset($postContentBtn) && !$_POST["textForPosting"]==null){
