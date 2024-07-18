@@ -72,7 +72,7 @@ $user_data=checkLoggedinOrNot($conn);
                        
   
                          <?php
-                        $sql="SELECT * FROM `contents`";
+                        $sql="SELECT *FROM contents ORDER BY postingTime = (SELECT MAX(postingTime) FROM contents) DESC, RAND();";
                         if($result=$conn->query($sql)){
                             while($row=$result->fetch_assoc()){
 ?>
